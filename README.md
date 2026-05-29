@@ -134,14 +134,3 @@ streamlit run web_app/app.py
 - 每次新单元开始前，先清空旧截图
 - 优先保证文字清晰、裁切完整、页码顺序正确
 
-## 不应提交到 GitHub 的内容
-
-- `.env`
-- 真实 API key
-- 本地生成的 `output/`
-- 虚拟环境 `.venv/`
-
-## 公开仓库建议
-
-- 仓库名示例：`french-textbook-materials-generator`
-- 推荐在 README 中明确这是“教学资料生成工具”而不是“通用 OCR 平台”
